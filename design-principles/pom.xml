@@ -12,6 +12,7 @@
     <module>open-close</module>
       <module>liskov-substitution</module>
       <module>dependence-Inversion</module>
+      <module>interface-segregation</module>
   </modules>
 
   <name>design-principles</name>
