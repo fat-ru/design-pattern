@@ -1,4 +1,6 @@
-package com.practice.zhuzru.right;
+package com.practice.zhuzru.right.impl;
+
+import com.practice.zhuzru.right.Cpu;
 
 /**
  * 功能描述：

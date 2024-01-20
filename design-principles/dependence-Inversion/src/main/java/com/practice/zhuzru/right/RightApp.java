@@ -1,5 +1,9 @@
 package com.practice.zhuzru.right;
 
+import com.practice.zhuzru.right.impl.IntelCpu;
+import com.practice.zhuzru.right.impl.KingstonMemory;
+import com.practice.zhuzru.right.impl.XiJieHardDisk;
+
 /**
  * 功能描述：
  *

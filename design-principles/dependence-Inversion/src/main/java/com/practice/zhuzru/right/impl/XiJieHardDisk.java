@@ -1,4 +1,6 @@
-package com.practice.zhuzru.right;
+package com.practice.zhuzru.right.impl;
+
+import com.practice.zhuzru.right.HardDisk;
 
 /**
  * 功能描述：
@@ -6,7 +8,7 @@ package com.practice.zhuzru.right;
  * @Date 2024/1/20 17:23
  * @Created by zhuzru
  */
-public class XiJieHardDisk implements HardDisk{
+public class XiJieHardDisk implements HardDisk {
     private static String hardDiskData = "study materials";
     public void save(String data) {
         hardDiskData = data;

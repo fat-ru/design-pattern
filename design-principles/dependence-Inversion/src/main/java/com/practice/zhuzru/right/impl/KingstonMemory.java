@@ -1,4 +1,6 @@
-package com.practice.zhuzru.right;
+package com.practice.zhuzru.right.impl;
+
+import com.practice.zhuzru.right.Memory;
 
 /**
  * 功能描述：
@@ -6,7 +8,7 @@ package com.practice.zhuzru.right;
  * @Date 2024/1/20 17:31
  * @Created by zhuzru
  */
-public class KingstonMemory implements Memory{
+public class KingstonMemory implements Memory {
     public void save(){
         System.out.println("use kingston memory");
     }
