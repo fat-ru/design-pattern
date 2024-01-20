@@ -10,6 +10,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>open-close</module>
+      <module>liskov-substitution</module>
   </modules>
 
   <name>design-principles</name>
