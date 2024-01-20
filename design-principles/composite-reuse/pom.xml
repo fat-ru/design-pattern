@@ -5,23 +5,22 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.practice.zhuzru</groupId>
-  <artifactId>design-principles</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>composite-reuse</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <modules>
-    <module>open-close</module>
-      <module>liskov-substitution</module>
-      <module>dependence-Inversion</module>
-      <module>interface-segregation</module>
-      <module>demeter</module>
-    <module>composite-reuse</module>
-  </modules>
-  <name>design-principles</name>
+  <name>composite-reuse</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
